@@ -18,32 +18,14 @@ function toggleMode() {
 
 //manipulação do HTML com JS
 let userProfile = document.querySelector("#userProfile")
-userProfile.innerHTML = ("<h1>Marcos  Abreu</h1><p>Desenvolvedor Front-End</p>")
+userProfile.innerHTML = (`
+  <header class="profile">
+        <img src="https://avatars.githubusercontent.com/u/129352255?v=4" alt="imagem de perfil"/>
+      <div>
+        <h1>Marcos  Abreu</h1><p>Desenvolvedor Front-End</p>
+      </div>
+  </header>
+`)
 
 let footer = document.querySelector("#footer")
 footer.innerHTML = ("<span>Marcos Abreu 2023 | Todos os direitos reservados</span>")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
