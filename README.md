@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Node e NPM
 - Git e Github
 
-- [Acesse o projeto finalizado, online](https://https://omarcossabreu.github.io/projeto-Links/)
+- [Acesse o projeto finalizado, online](https://omarcossabreu.github.io/project-Links/)
 
 ## :memo: Licença
 
