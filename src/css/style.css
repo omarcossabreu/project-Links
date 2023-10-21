@@ -36,8 +36,8 @@ body * {
 
 #container {
   width: 100%;
+  height: 100vh;
   max-width: 588px;
-  height: auto;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -102,6 +102,7 @@ body * {
   flex-direction: column;
   padding: 0 25px;
   width: 100%;
+  margin-top: -10px;
 }
 
 #links ul {
@@ -135,7 +136,7 @@ body * {
 }
 
 #links .icon {
-  margin-left: 15%; 
+  margin-left: 15%;
   font-size: 22px;
 }
 
@@ -144,8 +145,9 @@ body * {
 #social_links {
   display: flex;
   justify-content: center;
-  padding: 24px 0;
-  margin-top: -40px;
+  width: 100%;
+  padding: 0 24px;
+  margin-top: 5px;
   font-size: 24px;
 }
 
@@ -162,19 +164,36 @@ body * {
   transition: background 0.2s;
 }
 
+#footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 footer span{
   font-family: "Ysabeau SC", sans-serif;
-  display: flex;font-family: "Ysabeau SC", sans-serif;
-  justify-content: center;
-  font-size: 14px;
-  margin-top: -25px;
+  font-size: 0.9em;
   color:  rgba(114, 111, 111, 0.829);
 }
 
 @media (max-width: 430px) {
   #links ul li a {
-  gap: 20%;
+  gap: 10%;
 }
+
+#links .icon {
+  margin-left: 20%;
+  font-size: 18px;
+}
+
+#social_links {
+  font-size: 20px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 12px;
+  }
 }
 
 /*animation*/
